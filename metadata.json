@@ -1,0 +1,7 @@
+{
+  "name": "DeepGuard: Deepfake Audio Detector",
+  "description": "A real-time dashboard analyzing audio streams for deepfake signatures using Gemini 2.5 Flash.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
