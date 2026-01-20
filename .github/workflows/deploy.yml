@@ -33,7 +33,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-            # Add any build-time env vars here if needed
+            GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
             CI: true
 
       - name: Upload artifact
