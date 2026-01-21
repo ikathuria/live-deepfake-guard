@@ -5,7 +5,7 @@ import { pipeline, Pipeline, env } from '@xenova/transformers';
 env.allowLocalModels = true;
 env.allowRemoteModels = false; // Force local usage to ensure offline capability
 env.useBrowserCache = false;
-env.localModelPath = '/live-deepfake-guard/models/'; // Path relative to domain root, crucial for GH Pages
+env.localModelPath = '/DeepfakeGuard/models/'; // Path relative to domain root, crucial for GH Pages
 
 const TASK = 'audio-classification';
 // Using a model that provides some form of "fake" detection or emotion recognition as a proxy

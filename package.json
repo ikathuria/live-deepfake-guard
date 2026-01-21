@@ -2,6 +2,7 @@
   "name": "deepguard:-deepfake-audio-detector",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://ikathuria.github.io/DeepfakeGuard/",
   "type": "module",
   "scripts": {
     "dev": "vite",
